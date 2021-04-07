@@ -171,7 +171,7 @@
     border-width: 0;
     display: block;
     width: 120px;
-    margin: 25px auto 0;
+    margin: 25px auto 50px;
     background: #f7bc3e;
     color: rgb(0, 0, 0);
     font-weight: 600;
@@ -189,3 +189,37 @@
     form {border-radius: 0 0 20px 20px}
   }
   
+  .information {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    &information_1 {
+      width: 50px;
+    }
+   
+
+  }
+  
+  footer {
+    max-width: 950px;
+    margin: 0 auto;
+    height: 350px;
+  }
+
+  .texte {
+color: #ffffff;
+margin-top: 50px;
+  }
+
+  .icon {
+    width: 100px; 
+    height: 30px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .promo {
+    min-height:  800px; 
+    padding: 21px 0 100px;
+    background: url ('../srs/img/EOtM2r1U0AEZ-kp.jpg') center center/cover no-repeat;
+  }
