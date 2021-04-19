@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i&subset=cyrillic';
+// @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i&subset=cyrillic';
 body {
     margin: auto;
     background: #000000;
@@ -16,91 +16,8 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
-    width: 1900px;
+    // width: 1900px;
     height: 566px;
-}
-
-button {
-    padding: 10px 0;
-    border-width: 0;
-    display: block;
-    width: 120px;
-    margin: 25px auto 50px;
-    background: #f7bc3e;
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-    font-size: 14px;
-    outline: none;
-    text-transform: uppercase;
-    border-radius: 5px;
-}
-
-.catalog-item {
-    max-width: 1950px;
-    margin: 0 auto;
-    margin-top: 50px;
-    overflow: hidden;
-    // display: flex;
-    // justify-content: space-between;
-    &__wrapper {
-        display: flex;
-        width: 200%;
-    }
-    &__content {
-        width: 50%;
-        margin-right: 0px;
-        transform: translateX(-150%);
-        transition: 0.5s all;
-        display: none;
-        &_active {
-            display: block;
-            transform: translateX(100%);
-            margin-right: 20px;
-        }
-    }
-}
-
-.catalog-item__list {
-    color: #ffffff;
-    margin-top: 50px;
-    width: 50%;
-    margin-left: 20px;
-    transform: translateX(0%);
-    padding-right: 20px;
-    transition: 0.5s all;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    &_active {
-        transform: translateX(0%);
-        margin-left: 0px;
-    }
-}
-
-li {
-    float: inherit;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-.navb {
-    display: flex;
-    justify-content: end;
-}
-
-.catalog-item {
-    display: flex;
-    justify-content: flex-start;
-    // flex-wrap: wrap;
 }
 
 // .list {
@@ -110,7 +27,10 @@ li a:hover {
 //     color: #611313;
 //     font-size: x-large;
 // }
-@import "heder",
-"footer",
-"form",
-"footer"
+@import '_heder';
+@import '_footer';
+@import '_form';
+@import '_footer';
+@import '_button';
+@import '_navbar';
+@import '_catalog';
